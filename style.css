@@ -39,5 +39,29 @@ h2{
     background-repeat: no-repeat;
     height: 100vh;
     background-position: right;
-
+}
+.experience{
+    height: 100vh;
+}
+.flexi-cont{
+    display: flex;
+}
+.exp-cont{
+    width: 50%;
+    margin-left: 100px;
+    box-shadow: 10px 10px 20px #808080;
+    padding-left: 50px;
+}
+#exp-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+#exp-right{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(23, 226, 107),rgb(16, 12, 241));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
